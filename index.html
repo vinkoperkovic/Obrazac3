@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Upitnik</title>
+        <style>
+            body {
+                background: rgba(231, 61, 61, 0.924);
+                border-radius: 2px solid black;
+                margin-right: 50px;
+                margin-left: 50px;
+            }
+            h1 {
+                font-size: 50px;
+                color: rgb(58, 2, 2);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="http://www.ssklivno.net/">
+            <div align="center">
+             <h1>Obrazac</h1>
+             Ime:
+             <input type="text" name="Ime" size=35 maxlength=35 value="">
+            </br><br>
+             Prezime:
+            <input type="text" name="prezime" size=35 maxlength=35 value="">
+        </br><br>
+        Razred:
+        <select name="moviepref"><option>
+            <option value=1 selected = "false">1. srednje
+                <option value=2 >2. srednje
+                <option value=3 >3. srednje
+                <option value=4 >4. srednje
+        </select>
+        <br></br>
+             Ukratko o sebi:
+             <textarea name="Esej" cols=30 rows=4></textarea>
+        </br><br>
+            U slobodno vrijeme volim:
+            <p>
+                <input type="checkbox" name="Igrati">Igrati<br>
+                <input type="checkbox" name="Crtati">Crtati<br>
+                <input type="checkbox" name="Šetati">Šetati<br>
+                <input type="checkbox" name="Spavati">Spavati<br>
+                <input type="checkbox" name="Drugo">Drugo<br>
+            </p>
+            </br><br>
+            <input type=submit value="Pošalji">
+            </div>
+        </form>
+    </body>
+</html>
